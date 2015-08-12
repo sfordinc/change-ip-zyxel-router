@@ -1,0 +1,11 @@
+10.18.1.1 23
+WAIT "Login:"
+SEND "adminy\m"
+WAIT "Password:"
+SEND "Passwww\m"
+WAIT "(config)"
+SEND "interface ISP\m"
+WAIT "(config-if)"
+SEND "ip dhcp client release\m"
+WAIT "(config-if)"
+SEND "exit;\m"
