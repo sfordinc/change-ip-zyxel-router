@@ -1,0 +1,9 @@
+10.18.1.1 23
+WAIT "Login:"
+SEND "adminy\m"
+WAIT "Password:"
+SEND "paassswd\m"
+WAIT "(config)"
+SEND "show interface ISP\m"
+WAIT "(config)"
+SEND "exit;\m"
