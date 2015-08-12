@@ -2,7 +2,7 @@
 WAIT "Login:"
 SEND "adminy\m"
 WAIT "Password:"
-SEND "paassswd\m"
+SEND "Passwww\m"
 WAIT "(config)"
 SEND "show interface ISP\m"
 WAIT "(config)"
