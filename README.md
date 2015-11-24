@@ -12,6 +12,7 @@ read_interface.telnet - config file for telnet utility to read interface info (i
 
 release_ip.telnet - config file for telnet utility to change ip address.
 
+--------------------------------------------------------------------------
 
 Этот скрипт поможет вам автоматически менять ip адрес на маршрутизаторах ZYXEL по протоколу Telnet, если ваш провайдер выдает вам IP как из NAT-диапазонов, так и внешние "белые" IP-адреса.
 
