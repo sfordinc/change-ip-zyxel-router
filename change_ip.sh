@@ -4,9 +4,9 @@
 # variables:
 #
 SLEEP_TIMEOUT=2
-LOGIN=root
-PASSWORD=
-HOST=192.168.1.1
+LOGIN=user
+PASSWORD=pass
+HOST=192.168.0.1
 PORT=23
 IP_PATTERN=8.8.
 LOG_FILE=/var/log/change_ip.log
