@@ -22,7 +22,7 @@ IP_ADDRESS=`(
     sleep ${SLEEP_TIMEOUT}
     echo "show interface ISP"
     sleep ${SLEEP_TIMEOUT}
-    echo "exit;"
+    echo "exit"
     ) | telnet ${HOST} ${PORT} | grep "address: " | tee -a ${LOG_FILE} | grep "${IP_PATTERN}"`
 }
 
@@ -37,7 +37,7 @@ CHANGE_IP() {
     sleep ${SLEEP_TIMEOUT}
     echo "ip dhcp client release"
     sleep ${SLEEP_TIMEOUT}
-    echo "exit;"
+    echo "exit"
     ) | telnet ${HOST} ${PORT}
 }
 
